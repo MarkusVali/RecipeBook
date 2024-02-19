@@ -3,7 +3,7 @@
 ## This is our .NET MAUI program, that is meant to be a recipe book.
 
 ## The features this contains is:
-- TBA
+- 4 views
 - TBA
 - TBA
 
