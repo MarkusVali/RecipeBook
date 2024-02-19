@@ -1,10 +1,10 @@
 # RecipeBook
 
-## This is our .NET MAUI program, that is meant to be a recipe book.
+## See on meie .NET MAUI programm
 
-## The features this contains is:
-- 4 views
+## See programm sisaldab:
+- 4 vaadet
 - TBA
 - TBA
 
-## We hope you enjoy this program!
+## Me loodame et teile meeldib see programm!
