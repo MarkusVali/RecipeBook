@@ -1,4 +1,4 @@
-# ▌RecipeBook▐
+# **▌RecipeBook▐**
 
 ## ▌See on meie .NET MAUI programm▐
 
