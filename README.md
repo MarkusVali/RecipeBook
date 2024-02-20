@@ -8,4 +8,4 @@
 - TBA
 
 ## Me loodame et teile meeldib see programm!
-### - Markus Väli, Jan Kenyon Nõukas, Kristo Kuurits, Sandra Veskimeister
+###### - Markus Väli, Jan Kenyon Nõukas, Kristo Kuurits, Sandra Veskimeister
