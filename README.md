@@ -4,8 +4,8 @@
 
 ## See programm sisaldab:
 - 4 vaadet
-- TBA
-- TBA
+- Maitsvaid retsepte
+- Palju README commit-e... nagu eriti palju
 
 ## ▌Me loodame et teile meeldib see programm!▐
 ###### - Markus Väli, Jan Kenyon Nõukas, Kristo Kuurits, Sandra Veskimeister
