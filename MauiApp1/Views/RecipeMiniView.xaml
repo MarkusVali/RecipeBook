@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Views.RecipeMiniView"
+             xmlns:models="clr-namespace:Models"
+             Title="RecipeMiniView">
+    <Grid
+            x:Name="MainContentGrid"
+            Padding="24,52,24,0"
+            BackgroundColor="White"
+            ColumnDefinitions="*, Auto"
+            RowDefinitions="Auto, *">
+
+        <ImageButton 
+            WidthRequest="45"
+            HeightRequest="45"
+            Source="imgback.png"
+            Grid.Row="0"
+            Grid.Column="0"
+            HorizontalOptions="Start"
+            VerticalOptions="Center"
+            Clicked="BackButton_Clicked"/>
+
+        <ScrollView
+                Grid.Row="1"
+                Grid.Column="0"
+                Grid.ColumnSpan="2"
+                HorizontalScrollBarVisibility="Never"
+                VerticalScrollBarVisibility="Never"
+                Margin="0,16,0,0">
+
+            <VerticalStackLayout
+                    Spacing="18">
+
+                <!--Recipe Ingredients-->
+                <Label 
+                        LineBreakMode="WordWrap"
+                        Style="{StaticResource RecipeDetailsTextStyle}"
+                        Text="{Binding Ingredients}"
+                    />
+
+                <!--Divider-->
+                <Rectangle 
+                        HorizontalOptions="Fill"
+                        HeightRequest="2"
+                        Stroke="Transparent"
+                        Fill="{StaticResource LightBorderColor}"
+                    />
+
+                <!--Recipe-->
+                <Label 
+                    LineBreakMode="WordWrap"
+                    Style="{StaticResource RecipeDetailsTextStyle}"
+                    Text="{Binding Recipe}"
+                    />
+
+            </VerticalStackLayout>
+
+        </ScrollView>
+
+    </Grid>
+</ContentPage>
