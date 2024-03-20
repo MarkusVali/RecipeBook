@@ -1,6 +1,6 @@
 using Models;
 
-namespace Recipebook2.Services
+namespace Services
 {
     internal static class FoodsService
     {
