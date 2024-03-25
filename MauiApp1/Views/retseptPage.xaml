@@ -97,13 +97,13 @@
 
         <StackLayout VerticalOptions="FillAndExpand">
             <Button 
-                Text="Explore Now"
+                Text="RetseptiRaamat"
                 HorizontalOptions="Center"
                 Margin="0,1200,0,6"
                 Clicked="ExploreButton_Clicked"/>
 
             <Label 
-                Text="Kerged ja maitsvad retseptid!"
+                Text="Maitsvad retseptid!"
                 HorizontalOptions="CenterAndExpand"
                 VerticalOptions="StartAndExpand"
                 Margin="-1200"/>
