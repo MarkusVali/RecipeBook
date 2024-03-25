@@ -4,16 +4,17 @@
              x:Class="Views.RecipeMiniView"
              xmlns:models="clr-namespace:Models"
              Title="RecipeMiniView">
+
     <Grid
             x:Name="MainContentGrid"
             Padding="24,52,24,0"
-            BackgroundColor="White"
+            BackgroundColor="#BBB"
             ColumnDefinitions="*, Auto"
             RowDefinitions="Auto, *">
 
-        <ImageButton 
-            WidthRequest="45"
-            HeightRequest="45"
+        <ImageButton
+            WidthRequest="48"
+            HeightRequest="48"
             Source="imgback.png"
             Grid.Row="0"
             Grid.Column="0"
