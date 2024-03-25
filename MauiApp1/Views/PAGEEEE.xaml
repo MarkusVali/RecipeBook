@@ -68,33 +68,6 @@
                 <VerticalStackLayout
                     Spacing="20">
 
-                    <!--Search Box-->
-                    <Border Padding="12,4"
-                        BackgroundColor="White"
-                        Stroke="Gray"
-                        HorizontalOptions="Fill"
-                        Margin="0,0,24,0"
-                        HeightRequest="48">
-
-                        <Border.StrokeShape>
-                            <Rectangle />
-                        </Border.StrokeShape>
-
-                        <Grid HorizontalOptions="Fill"
-                          VerticalOptions="Center"
-                          ColumnDefinitions="Auto,*"
-                          ColumnSpacing="20">
-                            <Image WidthRequest="18"
-                               HeightRequest="18"
-                               Source="imgsearch.png"
-                               Grid.Column="0"
-                               VerticalOptions="Center" />
-                        </Grid>
-                    </Border>
-
-
-
-
                     <Label
                         Style="{StaticResource PageHeaderStyle}"
                         Margin="0,12,0,0">
@@ -138,10 +111,9 @@
                                         <Image
                                             Grid.Row="0"
                                             Source="{Binding HeroImage}"
-                                            Rotation="-30"
-                                            Aspect="AspectFit"
+                                            Aspect="AspectFill"
                                             VerticalOptions="Fill"
-                                            HorizontalOptions="Fill" />
+                                            HorizontalOptions="Fill"/>
 
                                         <Label
                                             Grid.Row="1"
@@ -198,8 +170,7 @@
                                         <Image
                                             Grid.Row="0"
                                             Source="{Binding HeroImage}"
-                                            Rotation="-30"
-                                            Aspect="AspectFit"
+                                            Aspect="AspectFill"
                                             VerticalOptions="Fill"
                                             HorizontalOptions="Fill"/>
                                         <Label
