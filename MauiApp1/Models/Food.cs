@@ -9,6 +9,7 @@ namespace Models
         public string Recipe { get; set; }
         public Color AccentColorStart { get; set; }
         public Color AccentColorEnd { get; set; }
+        public bool IsSweet { get; set; }
         public List<string> Images { get; set; }
 
         public Brush Background
