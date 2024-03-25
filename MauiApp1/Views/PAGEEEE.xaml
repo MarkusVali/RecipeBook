@@ -89,12 +89,6 @@
                                Source="imgsearch.png"
                                Grid.Column="0"
                                VerticalOptions="Center" />
-                            <Entry x:Name="searchEntry"
-                               TextChanged="SearchTextChanged"
-                               Grid.Column="1"
-                               VerticalOptions="Center"
-                               Placeholder="Otsi retsepti"
-                               TextColor="Black" />
                         </Grid>
                     </Border>
 
